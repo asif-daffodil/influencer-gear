@@ -137,7 +137,15 @@ nav > .logo:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 40px auto 70px;
+  margin: 70px auto;
+  border: solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  border-image-slice: 5;
 }
 
 .logos > img {
